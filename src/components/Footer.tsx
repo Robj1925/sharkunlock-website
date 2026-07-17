@@ -21,7 +21,7 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
 
   return (
     <footer className="bg-brand-navy text-white py-12 mt-auto">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <Image
             src="/sharkunlock-website/shark_unlock_logo.png"
