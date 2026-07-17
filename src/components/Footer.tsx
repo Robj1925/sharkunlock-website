@@ -57,6 +57,7 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
             <li><strong>Hudson County Hub:</strong> Jersey City, Bayonne, Union City</li>
           </ul>
           <p className="mt-4 text-xs font-semibold text-brand-orange">{t.hours}</p>
+        </div>
       </div>
       
       <div className="mt-12 text-center text-sm text-gray-400 border-t border-gray-800 pt-8">
