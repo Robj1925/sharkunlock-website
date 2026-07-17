@@ -25,17 +25,20 @@ export default function HomeES() {
                   Proveedor Certificado por NJ MVC
                 </span>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                  Vuelva a la Carretera. Rápido y Sin Problemas.
+                  INSTALACIONES LOCALES DE ALCOHOLÍMETRO
                 </h1>
-                <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">
-                  La mejor instalación de alcoholímetro de arranque en North Jersey. Sin tarifas ocultas, soporte bilingüe y citas disponibles el mismo día.
+                <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
+                  Servicio certificado y confiable en New Jersey para recuperar su licencia de manera segura.
+                </p>
+                <p className="text-lg md:text-xl font-bold text-brand-orange mb-8 max-w-lg">
+                  ✓ Citas el Mismo Día | ✓ 100% Cumplimiento NJ MVC | ✓ Sin Tarifas Ocultas
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors">
-                    Programar Instalación
+                    COMENZAR AHORA
                   </a>
-                  <a href="tel:8001234567" className="inline-flex justify-center items-center px-8 py-3 border-2 border-white text-base font-bold rounded-md text-brand-navy bg-white hover:bg-gray-100 transition-colors">
-                    Llamar al (800) 123-4567
+                  <a href="tel:8559174275" className="inline-flex justify-center items-center px-8 py-3 border-2 border-white text-base font-bold rounded-md text-brand-navy bg-white hover:bg-gray-100 transition-colors">
+                    Llamar al 855-917-4275
                   </a>
                 </div>
               </div>
@@ -62,29 +65,73 @@ export default function HomeES() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[
-                { city: "Paterson", address: "105 Columbia Ave, Paterson, NJ" },
-                { city: "Passaic", address: "Passaic Service Center, NJ" },
-                { city: "Monmouth Junction", address: "2140 US-130 N, Monmouth Junction, NJ" },
-                { city: "Toms River", address: "2133 Lakewood Rd, Unit 101, Toms River, NJ" },
-                { city: "Little Falls", address: "325 Main St, Little Falls, NJ" },
-                { city: "Jersey City", address: "777 Communipaw Ave, Jersey City, NJ" },
-              ].map((loc, i) => (
-                <div key={i} className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                  <div className="w-12 h-12 bg-orange-100 text-brand-orange rounded-full flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-brand-navy mb-2">{loc.city}</h3>
-                  <p className="text-brand-muted mb-4">{loc.address}</p>
-                  <a href={`https://maps.google.com/?q=${encodeURIComponent(loc.address)}`} target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">
-                    Obtener Direcciones &rarr;
-                  </a>
-                </div>
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+              {/* Passaic */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Passaic</h3>
+                <p className="text-brand-muted mb-4">Sirviendo a Passaic, Clifton, Paterson y ciudades aledañas.</p>
+                <p className="text-brand-orange font-bold mb-4 text-sm">
+                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
+                </p>
+                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
+                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
+                  Programar Instalación
+                </a>
+              </div>
+              
+              {/* Middlesex */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Middlesex</h3>
+                <p className="text-brand-muted mb-4">Sirviendo a Monmouth Junction, North Brunswick, Edison y regiones aledañas.</p>
+                <p className="text-brand-orange font-bold mb-4 text-sm">
+                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
+                </p>
+                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
+                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
+                  Programar Instalación
+                </a>
+              </div>
+
+              {/* Ocean */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Ocean</h3>
+                <p className="text-brand-muted mb-4">Sirviendo a Toms River, Lakewood, Brick y regiones costeras aledañas.</p>
+                <p className="text-brand-orange font-bold mb-4 text-sm">
+                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
+                </p>
+                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
+                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
+                  Programar Instalación
+                </a>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Passaic Valley */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Valle de Passaic</h3>
+                <p className="text-brand-muted mb-4">Sirviendo a Little Falls, Wayne, Totowa y regiones aledañas.</p>
+                <p className="text-brand-orange font-bold mb-4 text-sm">
+                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
+                </p>
+                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
+                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
+                  Programar Instalación
+                </a>
+              </div>
+
+              {/* Hudson County */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Hudson</h3>
+                <p className="text-brand-muted mb-4">Sirviendo a Jersey City, Bayonne, Union City y regiones aledañas.</p>
+                <p className="text-brand-orange font-bold mb-4 text-sm">
+                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
+                </p>
+                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
+                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
+                  Programar Instalación
+                </a>
+              </div>
             </div>
           </div>
         </section>
