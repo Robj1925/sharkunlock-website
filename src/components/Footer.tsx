@@ -40,7 +40,6 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
         
         <div>
           <h3 className="text-lg font-bold mb-4">{t.contact}</h3>
-          <p className="text-sm text-gray-300 mb-2">Admin: 437 Stockton Street, Hightstown, NJ 08520</p>
           <a href="mailto:support@sharkunlock.com" className="text-sm text-gray-300 hover:text-white block mb-4">support@sharkunlock.com</a>
           <a href="tel:8559174275" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
             {t.phone}: 855-917-4275

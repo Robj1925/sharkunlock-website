@@ -58,10 +58,6 @@ export default function ContactES() {
                       support@sharkunlock.com
                     </a>
                   </div>
-                  <div>
-                    <h3 className="text-sm font-semibold text-brand-navy">🏢 Oficina de Administración</h3>
-                    <p className="text-brand-muted text-sm">437 Stockton Street<br/>Hightstown, NJ 08520</p>
-                  </div>
                 </div>
               </div>
             </div>
