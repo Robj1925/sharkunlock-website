@@ -63,74 +63,36 @@ export default function HomeES() {
               <p className="text-lg text-brand-muted max-w-2xl mx-auto">
                 Contamos con centros de instalación certificados en todo New Jersey para atenderle rápidamente.
               </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-              {/* Passaic */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Passaic</h3>
-                <p className="text-brand-muted mb-4">Sirviendo a Passaic, Clifton, Paterson y ciudades aledañas.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Programar Instalación
-                </a>
-              </div>
-              
-              {/* Middlesex */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Middlesex</h3>
-                <p className="text-brand-muted mb-4">Sirviendo a Monmouth Junction, North Brunswick, Edison y regiones aledañas.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Programar Instalación
-                </a>
+              <div className="bg-orange-50 border-l-4 border-brand-orange p-6 mb-12 rounded-r-lg max-w-4xl mx-auto mt-8">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <span className="text-brand-orange text-2xl">⚠️</span>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-bold text-brand-navy text-left">Se Requiere Cita en Todas las Ubicaciones</h3>
+                    <p className="mt-1 text-brand-muted text-left">
+                      No aceptamos visitas sin cita previa. Reserve su instalación directamente a través de nuestro <a href="#intake-form" className="text-brand-orange hover:underline font-semibold">formulario de admisión en línea</a> a continuación, o llame a nuestro centro de reservas al <strong className="text-brand-navy">855-917-4275</strong> para programar una cita en cualquiera de nuestros centros.
+                    </p>
+                  </div>
+                </div>
               </div>
 
-              {/* Ocean */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Ocean</h3>
-                <p className="text-brand-muted mb-4">Sirviendo a Toms River, Lakewood, Brick y regiones costeras aledañas.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Programar Instalación
-                </a>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {/* Passaic Valley */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Valle de Passaic</h3>
-                <p className="text-brand-muted mb-4">Sirviendo a Little Falls, Wayne, Totowa y regiones aledañas.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Programar Instalación
-                </a>
-              </div>
-
-              {/* Hudson County */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Centro del Condado de Hudson</h3>
-                <p className="text-brand-muted mb-4">Sirviendo a Jersey City, Bayonne, Union City y regiones aledañas.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ SE REQUIERE CITA PREVIA. Programe su instalación directamente a través de nuestro formulario en línea o llame a nuestra mesa de reservas al 855-917-4275.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Mesa de Reservas: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Programar Instalación
-                </a>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                {[
+                  { name: "Centro del Condado de Passaic", cities: "Passaic, Clifton, Paterson" },
+                  { name: "Centro del Condado de Middlesex", cities: "Monmouth Junction, North Brunswick, Edison" },
+                  { name: "Centro del Condado de Ocean", cities: "Toms River, Lakewood, Brick" },
+                  { name: "Centro de Passaic Valley", cities: "Little Falls, Wayne, Totowa" },
+                  { name: "Centro del Condado de Hudson", cities: "Jersey City, Bayonne, Union City" }
+                ].map((hub, i) => (
+                  <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div className="w-12 h-12 bg-blue-50 text-brand-navy rounded-full flex items-center justify-center mb-4 group-hover:bg-brand-orange group-hover:text-white transition-colors duration-300">
+                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-brand-navy mb-2">{hub.name}</h3>
+                    <p className="text-sm text-brand-muted">Sirviendo a {hub.cities} y regiones circundantes.</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

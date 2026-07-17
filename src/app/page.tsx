@@ -64,74 +64,36 @@ export default function Home() {
                 We have certified installation centers across New Jersey to get you serviced quickly.
               </p>
             </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-              {/* Passaic */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Passaic County Hub</h3>
-                <p className="text-brand-muted mb-4">Serving Passaic, Clifton, Paterson, and surrounding cities.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ APPOINTMENT REQUIRED. Book your installation directly through our online intake form, or call our booking desk at 855-917-4275 to schedule an appointment.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Booking Desk: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Book Installation
-                </a>
-              </div>
-              
-              {/* Middlesex */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Middlesex County Hub</h3>
-                <p className="text-brand-muted mb-4">Serving Monmouth Junction, North Brunswick, Edison, and surrounding regions.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ APPOINTMENT REQUIRED. Book your installation directly through our online intake form, or call our booking desk at 855-917-4275 to schedule an appointment.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Booking Desk: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Book Installation
-                </a>
-              </div>
-
-              {/* Ocean */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Ocean County Hub</h3>
-                <p className="text-brand-muted mb-4">Serving Toms River, Lakewood, Brick, and surrounding shore regions.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ APPOINTMENT REQUIRED. Book your installation directly through our online intake form, or call our booking desk at 855-917-4275 to schedule an appointment.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Booking Desk: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Book Installation
-                </a>
+            <div className="bg-orange-50 border-l-4 border-brand-orange p-6 mb-12 rounded-r-lg max-w-4xl mx-auto">
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="text-brand-orange text-2xl">⚠️</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="text-lg font-bold text-brand-navy">Appointment Required for All Locations</h3>
+                  <p className="mt-1 text-brand-muted">
+                    We do not accept walk-ins. Please book your installation directly through our <a href="#intake-form" className="text-brand-orange hover:underline font-semibold">online intake form</a> below, or call our centralized booking desk at <strong className="text-brand-navy">855-917-4275</strong> to schedule an appointment at any of our hubs.
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {/* Passaic Valley */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Passaic Valley Hub</h3>
-                <p className="text-brand-muted mb-4">Serving Little Falls, Wayne, Totowa, and surrounding regions.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ APPOINTMENT REQUIRED. Book your installation directly through our online intake form, or call our booking desk at 855-917-4275 to schedule an appointment.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Booking Desk: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Book Installation
-                </a>
-              </div>
-
-              {/* Hudson County */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8 hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-brand-navy mb-2">Hudson County Hub</h3>
-                <p className="text-brand-muted mb-4">Serving Jersey City, Bayonne, Union City, and surrounding regions.</p>
-                <p className="text-brand-orange font-bold mb-4 text-sm">
-                  ⚠️ APPOINTMENT REQUIRED. Book your installation directly through our online intake form, or call our booking desk at 855-917-4275 to schedule an appointment.
-                </p>
-                <p className="font-semibold text-brand-navy mb-4">Booking Desk: 855-917-4275</p>
-                <a href="#intake-form" className="inline-block bg-brand-orange text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition-colors">
-                  Book Installation
-                </a>
-              </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+              {[
+                { name: "Passaic County Hub", cities: "Passaic, Clifton, Paterson" },
+                { name: "Middlesex County Hub", cities: "Monmouth Junction, North Brunswick, Edison" },
+                { name: "Ocean County Hub", cities: "Toms River, Lakewood, Brick" },
+                { name: "Passaic Valley Hub", cities: "Little Falls, Wayne, Totowa" },
+                { name: "Hudson County Hub", cities: "Jersey City, Bayonne, Union City" }
+              ].map((hub, i) => (
+                <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                  <div className="w-12 h-12 bg-blue-50 text-brand-navy rounded-full flex items-center justify-center mb-4 group-hover:bg-brand-orange group-hover:text-white transition-colors duration-300">
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                  </div>
+                  <h3 className="text-xl font-bold text-brand-navy mb-2">{hub.name}</h3>
+                  <p className="text-sm text-brand-muted">Serving {hub.cities} and surrounding regions.</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
