@@ -16,8 +16,8 @@ export default function DevicesAndTraining() {
           </div>
 
           {/* Device Info */}
-          <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-12 flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/3 flex justify-center">
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-12 flex flex-col md:flex-row items-center gap-12">
+            <div className="w-full md:w-1/2 flex justify-center">
               <Image 
                 src="/sharkunlock-website/wr3_product_handset.png" 
                 alt="WR3 Interlock Handset" 
@@ -26,7 +26,7 @@ export default function DevicesAndTraining() {
                 className="w-full max-w-[400px] h-auto object-contain"
               />
             </div>
-            <div className="w-full md:w-2/3">
+            <div className="w-full md:w-1/2">
               <h2 className="text-2xl font-bold text-brand-navy mb-4">The WR3 Interlock Handset</h2>
               <p className="text-brand-muted mb-6">
                 The WR3 is the industry standard for reliable, fast, and hygienic breath alcohol testing. Designed with an ergonomic shape and clear display, it allows you to get on the road quickly without unnecessary delays.

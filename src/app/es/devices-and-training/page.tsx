@@ -16,8 +16,8 @@ export default function DevicesAndTrainingES() {
           </div>
 
           {/* Device Info */}
-          <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-12 flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/3 flex justify-center">
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-12 flex flex-col md:flex-row items-center gap-12">
+            <div className="w-full md:w-1/2 flex justify-center">
               <Image 
                 src="/sharkunlock-website/wr3_product_handset.png" 
                 alt="Dispositivo WR3 Interlock" 
@@ -26,8 +26,8 @@ export default function DevicesAndTrainingES() {
                 className="w-full max-w-[400px] h-auto object-contain"
               />
             </div>
-            <div className="w-full md:w-2/3">
-              <h2 className="text-2xl font-bold text-brand-navy mb-4">El Dispositivo WR3</h2>
+            <div className="w-full md:w-1/2">
+              <h2 className="text-2xl font-bold text-brand-navy mb-4">El Dispositivo WR3 Interlock</h2>
               <p className="text-brand-muted mb-6">
                 El WR3 es el estándar de la industria para pruebas de alcohol en el aliento confiables, rápidas e higiénicas. Diseñado con una forma ergonómica y pantalla clara, le permite volver a la carretera rápidamente sin demoras innecesarias.
               </p>

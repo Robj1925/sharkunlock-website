@@ -41,6 +41,16 @@ export default function HomeES() {
                   </a>
                 </div>
               </div>
+              <div className="hidden md:flex justify-end">
+                <Image
+                  src="/sharkunlock-website/wr3_product_handset.png"
+                  alt="Dispositivo de Enclavamiento WR3"
+                  width={600}
+                  height={350}
+                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </section>
