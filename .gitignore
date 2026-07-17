@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project planning & reporting assets
+Meeting Audio.mp3
+Meeting Transcription*.md
+Reports/
+Shark_Unlock_Implementation_Plan.html
+Zoho_Sites_Execution_Guide.md
+
