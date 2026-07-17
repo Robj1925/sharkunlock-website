@@ -21,18 +21,17 @@ export default function HomeES() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-brand-orange text-white mb-6">
-                  Proveedor Certificado por NJ MVC
-                </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                  INSTALACIONES LOCALES DE ALCOHOLÍMETRO
+                <span className="text-brand-orange uppercase tracking-wider font-bold text-sm mb-4 block">Instalación Aprobada por el Estado</span>
+                <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                  Vuelva a Conducir <span className="text-brand-orange">Hoy Mismo</span>.
                 </h1>
-                <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
-                  Servicio certificado y confiable en New Jersey para recuperar su licencia de manera segura.
+                <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg">
+                  Instalación de alcoholímetro rápida, discreta y confiable en nuestros 5 centros de servicio en New Jersey.
                 </p>
-                <p className="text-lg md:text-xl font-bold text-brand-orange mb-8 max-w-lg">
-                  ✓ Citas el Mismo Día | ✓ 100% Cumplimiento NJ MVC | ✓ Sin Tarifas Ocultas
-                </p>
+                
+                <div className="text-sm font-semibold text-gray-300 mb-8">
+                  ✓ Citas el Mismo Día | ✓ 100% Cumplimiento Estatal | ✓ Sin Tarifas Ocultas
+                </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors">
                     COMENZAR AHORA
@@ -41,15 +40,6 @@ export default function HomeES() {
                     Llamar al 855-917-4275
                   </a>
                 </div>
-              </div>
-              <div className="hidden md:flex justify-end">
-                <Image
-                  src="/sharkunlock-website/nj_mvc_certified_badge.png"
-                  alt="NJ MVC Certificado"
-                  width={300}
-                  height={300}
-                  className="object-contain"
-                />
               </div>
             </div>
           </div>

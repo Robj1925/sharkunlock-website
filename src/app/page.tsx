@@ -21,18 +21,17 @@ export default function Home() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-brand-orange text-white mb-6">
-                  NJ MVC Certified Provider
-                </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                  LOCAL IGNITION INTERLOCK INSTALLATIONS
+                <span className="text-brand-orange uppercase tracking-wider font-bold text-sm mb-4 block">State Approved Installation</span>
+                <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                  Get Back on the Road <span className="text-brand-orange">Today</span>.
                 </h1>
-                <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-lg">
-                  Certified, Reliable Service in New Jersey to Regain Your License Safely.
+                <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg">
+                  Fast, discreet, and reliable ignition interlock installation across our 5 New Jersey service hubs.
                 </p>
-                <p className="text-lg md:text-xl font-bold text-brand-orange mb-8 max-w-lg">
-                  ✓ Same-Day Appointments | ✓ 100% NJ MVC Compliant | ✓ No Hidden Fees
-                </p>
+                
+                <div className="text-sm font-semibold text-gray-300 mb-8">
+                  ✓ Same-Day Appointments | ✓ 100% State Compliant | ✓ No Hidden Fees
+                </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors">
                     GET STARTED NOW
@@ -41,15 +40,6 @@ export default function Home() {
                     Call 855-917-4275
                   </a>
                 </div>
-              </div>
-              <div className="hidden md:flex justify-end">
-                <Image
-                  src="/sharkunlock-website/nj_mvc_certified_badge.png"
-                  alt="NJ MVC Certified"
-                  width={300}
-                  height={300}
-                  className="object-contain"
-                />
               </div>
             </div>
           </div>

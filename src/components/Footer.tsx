@@ -6,14 +6,14 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
     en: {
       contact: "Contact Us",
       phone: "Call Now",
-      copyright: "© 2026 Shark Unlock Interlock Inc. All Rights Reserved. Certified NJ MVC Ignition Interlock Vendor.",
+      copyright: "© 2026 Shark Unlock Interlock Inc. All Rights Reserved.",
       locations: "Our Locations",
       hours: "Mon-Fri: 9am-6pm, Sat: 9am-4pm, Sun: Closed",
     },
     es: {
       contact: "Contáctenos",
       phone: "Llama Ahora",
-      copyright: "© 2026 Shark Unlock Interlock Inc. Todos los derechos reservados. Proveedor Certificado por NJ MVC.",
+      copyright: "© 2026 Shark Unlock Interlock Inc. Todos los derechos reservados.",
       locations: "Nuestras Ubicaciones",
       hours: "Lun-Vie: 9am-6pm, Sáb: 9am-4pm, Dom: Cerrado",
     }
@@ -57,17 +57,6 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
             <li><strong>Hudson County Hub:</strong> Jersey City, Bayonne, Union City</li>
           </ul>
           <p className="mt-4 text-xs font-semibold text-brand-orange">{t.hours}</p>
-        </div>
-
-        <div className="flex justify-center md:justify-end items-start">
-          <Image
-            src="/sharkunlock-website/nj_mvc_certified_badge.png"
-            alt="NJ MVC Certified"
-            width={150}
-            height={150}
-            className="object-contain"
-          />
-        </div>
       </div>
       
       <div className="mt-12 text-center text-sm text-gray-400 border-t border-gray-800 pt-8">
