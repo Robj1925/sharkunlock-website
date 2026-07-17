@@ -21,9 +21,9 @@ export default function DevicesAndTraining() {
               <Image 
                 src="/sharkunlock-website/wr3_product_handset.png" 
                 alt="WR3 Interlock Handset" 
-                width={250} 
-                height={400} 
-                className="object-contain"
+                width={800} 
+                height={450} 
+                className="w-full max-w-[400px] h-auto object-contain"
               />
             </div>
             <div className="w-full md:w-2/3">
