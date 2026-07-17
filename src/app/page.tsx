@@ -19,8 +19,8 @@ export default function Home() {
             />
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
+            <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+              <div className="flex flex-col items-center">
                 <div className="inline-flex items-center px-4 py-1.5 rounded-full border border-brand-orange/30 bg-brand-orange/10 text-brand-orange text-sm font-bold tracking-wide uppercase mb-6 shadow-[0_0_15px_rgba(242,169,0,0.15)]">
                   <span className="w-2 h-2 rounded-full bg-brand-orange mr-2 animate-pulse"></span>
                   State Approved Installation
@@ -35,24 +35,14 @@ export default function Home() {
                 <div className="text-sm font-semibold text-gray-300 mb-8">
                   ✓ Same-Day Appointments | ✓ 100% State Compliant | ✓ No Hidden Fees
                 </div>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors">
+                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                  <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors shadow-lg shadow-brand-orange/20">
                     GET STARTED NOW
                   </a>
-                  <a href="tel:8559174275" className="inline-flex justify-center items-center px-8 py-3 border-2 border-white text-base font-bold rounded-md text-brand-navy bg-white hover:bg-gray-100 transition-colors">
+                  <a href="tel:8559174275" className="inline-flex justify-center items-center px-8 py-3 border-2 border-white/20 text-base font-bold rounded-md text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors">
                     Call 855-917-4275
                   </a>
                 </div>
-              </div>
-              <div className="hidden md:flex justify-end">
-                <Image
-                  src="/sharkunlock-website/wr3_product_handset.png"
-                  alt="WR3 Ignition Interlock Device"
-                  width={600}
-                  height={350}
-                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
-                  priority
-                />
               </div>
             </div>
           </div>
