@@ -24,7 +24,7 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <Image
-            src="/shark_unlock_logo.png"
+            src="/sharkunlock-website/shark_unlock_logo.png"
             alt="Shark Unlock Interlock"
             width={150}
             height={50}
@@ -61,7 +61,7 @@ export default function Footer({ lang = "en" }: { lang?: "en" | "es" }) {
 
         <div className="flex justify-center md:justify-end items-start">
           <Image
-            src="/nj_mvc_certified_badge.png"
+            src="/sharkunlock-website/nj_mvc_certified_badge.png"
             alt="NJ MVC Certified"
             width={150}
             height={150}

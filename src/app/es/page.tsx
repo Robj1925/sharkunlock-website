@@ -11,7 +11,7 @@ export default function HomeES() {
         <section className="relative bg-brand-navy text-white overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/car_interior_hero_bg.png"
+              src="/sharkunlock-website/car_interior_hero_bg.png"
               alt="Interior del coche"
               fill
               className="object-cover opacity-20"
@@ -44,7 +44,7 @@ export default function HomeES() {
               </div>
               <div className="hidden md:flex justify-end">
                 <Image
-                  src="/nj_mvc_certified_badge.png"
+                  src="/sharkunlock-website/nj_mvc_certified_badge.png"
                   alt="NJ MVC Certificado"
                   width={300}
                   height={300}

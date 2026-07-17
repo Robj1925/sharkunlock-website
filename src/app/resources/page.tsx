@@ -65,7 +65,7 @@ export default function Resources() {
                   </ol>
 
                   <p className="mt-8 font-semibold">
-                    <a href="/contact" className="text-brand-orange hover:underline">Contact us today</a> to ensure your vehicle is compliant before your MVC deadline.
+                    <a href="/sharkunlock-website/contact" className="text-brand-orange hover:underline">Contact us today</a> to ensure your vehicle is compliant before your MVC deadline.
                   </p>
                 </div>
               </div>

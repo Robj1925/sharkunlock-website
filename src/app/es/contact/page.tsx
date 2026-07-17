@@ -93,7 +93,7 @@ export default function ContactES() {
               </ul>
               
               <div className="mt-8 pt-8 border-t border-gray-100">
-                <a href="/es/#intake-form" className="w-full inline-flex justify-center items-center px-6 py-3 border border-brand-orange text-base font-bold rounded-md text-brand-orange hover:bg-orange-50 transition-colors">
+                <a href="/sharkunlock-website/es/#intake-form" className="w-full inline-flex justify-center items-center px-6 py-3 border border-brand-orange text-base font-bold rounded-md text-brand-orange hover:bg-orange-50 transition-colors">
                   Programar Instalación
                 </a>
               </div>

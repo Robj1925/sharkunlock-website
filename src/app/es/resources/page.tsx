@@ -65,7 +65,7 @@ export default function ResourcesES() {
                   </ol>
 
                   <p className="mt-8 font-semibold">
-                    <a href="/es/contact" className="text-brand-orange hover:underline">Contáctenos hoy</a> para asegurarse de que su vehículo cumpla con las normas antes de su fecha límite.
+                    <a href="/sharkunlock-website/es/contact" className="text-brand-orange hover:underline">Contáctenos hoy</a> para asegurarse de que su vehículo cumpla con las normas antes de su fecha límite.
                   </p>
                 </div>
               </div>

@@ -34,7 +34,7 @@ export default function Navbar({ lang = "en" }: { lang?: "en" | "es" }) {
             <div className="shrink-0 flex items-center">
               <Link href={lang === "en" ? "/" : "/es"}>
                 <Image
-                  src="/shark_unlock_logo.png"
+                  src="/sharkunlock-website/shark_unlock_logo.png"
                   alt="Shark Unlock Interlock"
                   width={150}
                   height={50}

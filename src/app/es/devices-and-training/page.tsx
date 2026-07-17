@@ -19,7 +19,7 @@ export default function DevicesAndTrainingES() {
           <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-12 flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/3 flex justify-center">
               <Image 
-                src="/wr3_product_handset.png" 
+                src="/sharkunlock-website/wr3_product_handset.png" 
                 alt="Dispositivo WR3 Interlock" 
                 width={250} 
                 height={400} 
