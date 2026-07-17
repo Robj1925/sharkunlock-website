@@ -59,9 +59,9 @@ export default function HomeES() {
         <section className="py-20 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Ubicaciones Convenientes en North Jersey</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Centros de Instalación Certificados en New Jersey</h2>
               <p className="text-lg text-brand-muted max-w-2xl mx-auto">
-                Tenemos centros de instalación certificados en todo New Jersey para atenderle rápidamente.
+                Contamos con centros de instalación certificados en todo New Jersey para atenderle rápidamente.
               </p>
             </div>
             

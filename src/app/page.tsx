@@ -59,7 +59,7 @@ export default function Home() {
         <section className="py-20 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Convenient North Jersey Locations</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Certified New Jersey Installation Centers</h2>
               <p className="text-lg text-brand-muted max-w-2xl mx-auto">
                 We have certified installation centers across New Jersey to get you serviced quickly.
               </p>
