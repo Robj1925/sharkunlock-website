@@ -21,9 +21,12 @@ export default function HomeES() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <span className="text-brand-orange uppercase tracking-wider font-bold text-sm mb-4 block">Instalación Aprobada por el Estado</span>
-                <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                  Vuelva a Conducir <span className="text-brand-orange">Hoy Mismo</span>.
+                <div className="inline-flex items-center px-4 py-1.5 rounded-full border border-brand-orange/30 bg-brand-orange/10 text-brand-orange text-sm font-bold tracking-wide uppercase mb-6 shadow-[0_0_15px_rgba(242,169,0,0.15)]">
+                  <span className="w-2 h-2 rounded-full bg-brand-orange mr-2 animate-pulse"></span>
+                  Instalación Aprobada por el Estado
+                </div>
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-md">
+                  Vuelva a Conducir <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-400">Hoy Mismo</span>.
                 </h1>
                 <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg">
                   Instalación de alcoholímetro rápida, discreta y confiable en nuestros 5 centros de servicio en New Jersey.
