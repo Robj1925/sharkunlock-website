@@ -23,7 +23,7 @@ export default function HomeES() {
               <div className="flex flex-col items-center">
                 <div className="inline-flex items-center px-4 py-1.5 rounded-full border border-brand-orange/30 bg-brand-orange/10 text-brand-orange text-sm font-bold tracking-wide uppercase mb-6 shadow-[0_0_15px_rgba(242,169,0,0.15)]">
                   <span className="w-2 h-2 rounded-full bg-brand-orange mr-2 animate-pulse"></span>
-                  Instalación Aprobada por el Estado
+                  Proveedor Certificado por NJ MVC
                 </div>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-md">
                   Vuelva a Conducir <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-400">Hoy Mismo</span>.
@@ -33,7 +33,7 @@ export default function HomeES() {
                 </p>
                 
                 <div className="text-sm font-semibold text-gray-300 mb-8">
-                  ✓ Citas el Mismo Día | ✓ 100% Cumplimiento Estatal | ✓ Sin Tarifas Ocultas
+                  ✓ Citas el Mismo Día | ✓ 100% Cumplimiento NJ MVC | ✓ Sin Tarifas Ocultas
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <a href="#intake-form" className="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-orange hover:bg-orange-600 transition-colors shadow-lg shadow-brand-orange/20">
